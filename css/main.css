@@ -1,0 +1,336 @@
+Body {
+	font-family: 'Ubuntu', sans-serif;
+	Color: #201b2d;
+	font-size: 20px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+
+	background: rgba(242,242,242,1);
+	background: -moz-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,242,242,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(199,189,199,1)));
+	background: -webkit-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	background: -o-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	background: -ms-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	background: linear-gradient(to right, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#c7bdc7', GradientType=1 );
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.photo {
+	padding-top: 50px;
+	width: 500px;
+
+}
+.AboutMe {
+	padding-top: 50px;
+	text-align: right;
+	width: 500px;
+	height: 368px;
+}
+
+.job {
+	padding-top: 15px;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+
+
+.WhatIWant {
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.skills {
+	display: flex;
+	justify-content: center;
+}
+.EducationSkills {
+	text-align: left;
+	width: 500px;
+}
+.Experience {
+	text-align: left;
+	width: 500px;
+	border-left: 2px solid black;
+	padding-left: 10px;
+
+}
+.Exp {
+	display: flex;
+}
+
+.work {
+	padding-left: 10px;
+}
+.date {
+	width: 50px;
+}
+
+/* Начало сертификатов*/
+
+
+.flex-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.slider-wrapper {
+    max-width: 1000px;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+}
+
+#btn-prev, #btn-next {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background-color: gray;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+}
+
+#btn-prev:hover, #btn-next:hover {
+    opacity: 0.6;
+}
+
+
+#btn-next {
+    left: auto;
+    right: 0;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.sertificate {
+    width: 100%;
+    height: 100%;
+}
+
+.dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dot.active {
+    background-color: #000000;
+}
+
+span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+span:last-child{
+    margin-right: 0;
+}
+.text {
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+footer {
+	text-align: center;
+	background: rgba(242,242,242,1);
+	background: -moz-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,242,242,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(199,189,199,1)));
+	background: -webkit-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	background: -o-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	background: -ms-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	background: linear-gradient(to right, rgba(242,242,242,1) 0%, rgba(246,246,246,1) 47%, rgba(199,189,199,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#c7bdc7', GradientType=1 );
+}
+section {
+	
+}
+
+.form {
+	padding-top: 20px;
+	width: 600px;
+	margin: auto;
+
+}
+.container{
+	text-align: center;
+	padding-top: 20px;
+	width: 600px;
+	margin: Auto;
+}
+
+.form-group {
+	padding-top: 20px;
+}
+
+.form-control {
+	width: 500px;
+	height: 40px;
+	border-radius: 1rem;
+	border: 5px solid #8a92a6;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+
+.btn {
+	background-color: #8a92a6; 
+	border: none;
+	color: white;
+	padding: 10px 64px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 20px;
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+.alert {
+	font-size: 50px;
+	color: #59ed51;
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Адаптивность*/
+
+@media screen and (max-width: 1200px) {
+	
+.AboutMe {padding-right: 10px;}
+}
+
+@media screen and (max-width: 992px) {
+	
+.photo {
+    
+    width: 385px;
+}
+.AboutMe {
+    
+    width: 385px;
+}
+.flex-wrapper {
+	padding-left: 15px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.photo {
+    
+    width: 288px;
+    padding-top: 0;
+
+}
+.AboutMe {
+    
+    width: 288px;
+    padding-top: 0;
+}	
+
+h1 {
+    font-size: 30px;
+}
+.job {
+    padding-top: 0px;
+    
+}
+.WhatIWant {
+    padding-top: 0px;
+    font-size: 20px;
+}
+.flex-wrapper {
+	padding-left: 15px;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+Body {
+	font-size: 15px;
+	
+}
+
+header{
+	display: inline;
+}	
+.photo {
+	width: 95%;
+	padding-left: 10px;
+}
+.form {
+	width: 95%;
+}
+.container {
+	width: 95%;
+}
+.form-control {
+	width: 300px;
+	height: 25px;
+	font-size: 15px;
+}
+.skills {
+	display: inline;
+}
+.EducationSkills {
+    width: 95%;
+}
+.Experience {
+    width: 95%;
+    border-left: 0px;
+}
+.slider-wrapper {
+    
+    width: 100%;
+    height: 100%;    
+}
+.flex-wrapper, .text {
+    padding-top: 10px;
+}
+.btn {
+    padding: 5px 30px;
+    font-size: 16px;
+    
+}
+}
